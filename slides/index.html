@@ -1,0 +1,266 @@
+<!doctype html>
+<html lang="en">
+
+	<head>
+		<meta charset="utf-8">
+
+		<title>Image Manipulation &amp; Photoshop — Vermont Works for Women, Step Up to IT</title>
+
+		<meta name="description" content="Presentation for the Vermont Works for Women Step Up to IT Image Manipulation &amp; Photoshop workshop">
+		<meta name="author" content="Rachael Arnold">
+
+		<meta name="apple-mobile-web-app-capable" content="yes" />
+		<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
+
+		<link rel="stylesheet" href="css/reveal.css">
+		<link rel="stylesheet" href="css/theme/black.css" id="theme">
+		<link rel="stylesheet" href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+
+		<!-- Code syntax highlighting -->
+		<link rel="stylesheet" href="lib/css/zenburn.css">
+
+		<!-- Printing and PDF exports -->
+		<script>
+			var link = document.createElement( 'link' );
+			link.rel = 'stylesheet';
+			link.type = 'text/css';
+			link.href = window.location.search.match( /print-pdf/gi ) ? 'css/print/pdf.css' : 'css/print/paper.css';
+			document.getElementsByTagName( 'head' )[0].appendChild( link );
+		</script>
+
+		<!--[if lt IE 9]>
+		<script src="lib/js/html5shiv.js"></script>
+		<![endif]-->
+
+		<style>
+			section:first-child {
+				background: rgba(0,0,0,.7);
+			}
+			.reveal p img {
+				vertical-align: middle;
+			}
+			.reveal .pull-right, .reveal .pull-left {
+				display: block;
+			}
+			.reveal .pull-right { 
+				float: right;
+				margin-left: 1em;
+			}
+			.reveal .pull-left {
+				float: left;
+				margin-right: 1em;
+			}
+			.reveal .no-clear {
+				display: block;
+			}
+			.reveal table td.feature {
+				text-align: center;
+				border-color: white;
+			}
+			.feature-yes {
+				color: lime;
+			}
+			.feature-no {
+				color: crimson;
+			}
+			.feature-mid {
+				color: yellow;
+			}
+			.reveal table tr:last-child td {
+				border-bottom: 1px solid white;
+			}
+		</style>
+	</head>
+
+	<body>
+
+		<div class="reveal">
+
+			<!-- Any section element inside of this container is displayed as a slide -->
+			<div class="slides">
+				<section data-background="http://lorempixel.com/1680/1250/abstract/3">
+					<h1>Image Manipulation &amp; Photoshop</h1>
+					<h3>Preparing Images for Web and Print</h3>
+					<p>
+						<small><a href="http://www.rachaelarnold.com">Rachael Arnold</a> • <a href="http://twitter.com/raevenfea">@raevenfea</a> • <a href="mailto:rae.arnold@gmail.com">rae.arnold@gmail.com</a></small>
+						<br>
+						<small>Vermont Works for Women • Step Up to IT</small>
+					</p>
+				</section>
+
+				<section>
+					<h2>Hello There</h2>
+					<p>
+						Basic photo editing skills are useful regardless of career path, but are vital for Web design and development.
+					</p>
+					<p>
+						Ready for the essentials?
+					</p>
+				</section>
+
+
+				<section>
+					<h2>Image Types</h2>
+
+					<p>
+						<img src="../images/raster-r.png" alt="Rasters get fuzzy when expanded" width="300">
+						vs.
+						<img src="../images/vector-r.png" alt="Vectors can be sized up without impacting the quality" width="300">
+					</p>
+				</section>
+
+				<section>
+					<h2>Raster Images</h2>
+
+					<img src="../images/raster-r.png" alt="Rasters get fuzzy when expanded" width="300" class="pull-right">
+
+					<h3>JPG, PNG, GIF, TIFF <br><small>(and many others…)</small></h3>
+					<ul class="no-clear">
+						<li>Made of <strong>Pixels</strong> (Bitmaps)</li>
+						<li>Used for most web graphics</li>
+						<li>Cannot be enlarged without blurring</li>
+						<li>Specific advantages for each file type</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Raster File Types</h2>
+
+					<img src="../images/downloads/jpg_vs_png.png" alt="When to use JPG vs PNG. Source: http://lbrandy.com/blog/2008/10/my-first-and-last-webcomic/">
+					<p><small>Source: http://lbrandy.com/blog/2008/10/my-first-and-last-webcomic/</small></p>
+
+				</section>
+
+				<section>
+					<h2>Raster File Types</h2>
+
+					<table>
+						<thead>
+							<tr>
+								<th>Format</th>
+								<th>Lossless?</th>
+								<th>Alpha?</th>
+								<th>Web?</th>
+								<th>Usage</th>	
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th>.jpg</th>
+								<td class="feature feature-no"><i class="fa fa-times"></i></td>
+								<td class="feature feature-no"><i class="fa fa-times"></i></td>
+								<td class="feature feature-yes"><i class="fa fa-check-circle"></i></td>
+								<td>Photos</td>
+							</tr>
+							<tr>
+								<th>.png</th>
+								<td class="feature feature-yes"><i class="fa fa-check-circle"></i></td>
+								<td class="feature feature-yes"><i class="fa fa-check-circle"></i></td>
+								<td class="feature feature-yes"><i class="fa fa-check-circle"></i></td>
+								<td>Web graphics, especially with text</td>
+							</tr>
+							<tr>
+								<th>.gif</th>
+								<td class="feature feature-yes"><i class="fa fa-check-circle"></i></td>
+								<td class="feature feature-mid"><i class="fa fa-check-circle-o"></i></td>
+								<td class="feature feature-yes"><i class="fa fa-check-circle"></i></td>
+								<td>Animated graphics</td>
+							</tr>
+							<tr>
+								<th>.tiff</th>
+								<td class="feature feature-yes"><i class="fa fa-check-circle"></i></td>
+								<td class="feature feature-mid"><i class="fa fa-check-circle-o"></i></td>
+								<td class="feature feature-no"><i class="fa fa-times"></i></td>
+								<td>Archival format for photos, <strong>not for web use</strong></td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+
+
+				<section>
+					<h2>Vector Images</h2>
+
+					<img src="../images/vector-r.png" alt="Vectors can scale to any size" width="300" class="pull-right">
+
+					<h3>EPS, SVG, PDF, AI</h3>
+					<ul class="no-clear">
+						<li>Made with math (paths, XML)</li>
+						<li>SVG created for web use, others are mainly print</li>
+						<li>Can be scaled up without losing quality</li>
+					</ul>
+				</section>
+
+				<section>
+					<h2>Vector File Types</h2>
+
+					<table>
+						<thead>
+							<tr>
+								<th>Format</th>
+								<th>Web?</th>
+								<th>Usage</th>	
+							</tr>
+						</thead>
+						<tbody>
+							<tr>
+								<th>.eps</th>
+								<td class="feature feature-no"><i class="fa fa-times"></i></td>
+								<td>Most widely-supported, universal print use</td>
+							</tr>
+							<tr>
+								<th>.svg</th>
+								<td class="feature feature-yes"><i class="fa fa-check-circle"></i></td>
+								<td>Web vector graphics, building web fonts</td>
+							</tr>
+							<tr>
+								<th>.pdf</th>
+								<td class="feature feature-mid"><i class="fa fa-check-circle-o"></i></td>
+								<td>Documents for web download, forms, printing. Can technically be edited in many vector graphics programs, but not best practice.</td>
+							</tr>
+							<tr>
+								<th>.ai</th>
+								<td class="feature feature-no"><i class="fa fa-times"></i></td>
+								<td>Adobe Illustrator’s updated .eps. Not universal, but common in printing</td>
+							</tr>
+						</tbody>
+					</table>
+				</section>
+
+
+			</div>
+
+		</div>
+
+		<script src="lib/js/head.min.js"></script>
+		<script src="js/reveal.js"></script>
+
+		<script>
+
+			// Full list of configuration options available at:
+			// https://github.com/hakimel/reveal.js#configuration
+			Reveal.initialize({
+				controls: true,
+				progress: true,
+				history: true,
+				center: true,
+
+				transition: 'slide', // none/fade/slide/convex/concave/zoom
+
+				// Optional reveal.js plugins
+				dependencies: [
+					{ src: 'lib/js/classList.js', condition: function() { return !document.body.classList; } },
+					{ src: 'plugin/markdown/marked.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/markdown/markdown.js', condition: function() { return !!document.querySelector( '[data-markdown]' ); } },
+					{ src: 'plugin/highlight/highlight.js', async: true, condition: function() { return !!document.querySelector( 'pre code' ); }, callback: function() { hljs.initHighlightingOnLoad(); } },
+					{ src: 'plugin/zoom-js/zoom.js', async: true },
+					{ src: 'plugin/notes/notes.js', async: true }
+				]
+			});
+
+		</script>
+
+	</body>
+</html>
