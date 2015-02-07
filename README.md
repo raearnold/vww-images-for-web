@@ -16,6 +16,9 @@ Below is a summary of the slides and all resource links.
 	- Can be scaled up without losing quality
 
 ## Image Resolution and Quality
+### Aspect Ratio and Orientation
+Regardless of print or web, understanding aspect ratios and orientation is vital to resizing and using images. While you can crop images to different aspect ratios or orientations, you may lose vital parts of the graphics. Portrait orientation-images that won't work for banners, backgrounds, etc. on desktop devices might be well suited for mobile, but you'll often need a way to support both. Likewise, a 4:3 image won't work well if your users all use 16:9 screens.
+
 ### Web / Screen Resolution
 With the rise of high-density displays (e.g. Retina), "standard" screen resolutions are becoming tiered. As Web developers need to support multiple screen densities, vector graphics are playing a larger role so that multiple sizes aren't needed for each image on a website. 
 
@@ -28,7 +31,7 @@ Note that DPI (or Document Size) in Photoshop has no effect on screen display si
 
 ## Manipulation Basics: Resizing and Cropping
 
-We're demoing in Photoshop for the sake of the course, but many image editing programs allow you to resize and crop your photos).
+We're demoing in Photoshop for the sake of the course, but many image editing programs allow you to resize and crop your photos.
 
 [Pixlr Editor](http://apps.pixlr.com/editor/) is a free web-based editor that should look familiar to Photoshop users.
 

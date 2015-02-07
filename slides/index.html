@@ -35,7 +35,7 @@
 		<![endif]-->
 
 		<style>
-			section:first-child {
+			section[data-background] {
 				background: rgba(0,0,0,.7);
 			}
 			.reveal p img {
@@ -101,7 +101,7 @@
 				</section>
 
 
-				<section>
+				<section data-background="http://lorempixel.com/1680/1250/abstract/6">
 					<h2>Image Types</h2>
 
 					<p>
@@ -112,11 +112,11 @@
 				</section>
 
 				<section>
-					<h2>Raster Images</h2>
+					<h3>Raster Images</h3>
 
 					<img src="../images/raster-r.png" alt="Rasters get fuzzy when expanded" width="300" class="pull-right">
 
-					<h3>JPG, PNG, GIF, TIFF <br><small>(and many others…)</small></h3>
+					<h4>JPG, PNG, GIF, TIF <br><small>(and many others…)</small></h4>
 					<ul class="no-clear">
 						<li>Made of <strong>Pixels</strong> (Bitmaps)</li>
 						<li>Used for most web graphics</li>
@@ -126,7 +126,7 @@
 				</section>
 
 				<section>
-					<h2>Raster File Types</h2>
+					<h3>Raster File Types</h3>
 
 					<img src="../images/downloads/jpg_vs_png.png" alt="When to use JPG vs PNG. Source: http://lbrandy.com/blog/2008/10/my-first-and-last-webcomic/">
 					<p><small>Source: http://lbrandy.com/blog/2008/10/my-first-and-last-webcomic/</small></p>
@@ -134,7 +134,7 @@
 				</section>
 
 				<section>
-					<h2>Raster File Types</h2>
+					<h3>Raster File Types</h3>
 
 					<table>
 						<thead>
@@ -169,7 +169,7 @@
 								<td>Animated graphics</td>
 							</tr>
 							<tr>
-								<th>.tiff</th>
+								<th>.tif</th>
 								<td class="feature feature-yes"><i class="fa fa-check-circle"></i></td>
 								<td class="feature feature-mid"><i class="fa fa-check-circle-o"></i></td>
 								<td class="feature feature-no"><i class="fa fa-times"></i></td>
@@ -181,11 +181,11 @@
 
 
 				<section>
-					<h2>Vector Images</h2>
+					<h3>Vector Images</h3>
 
 					<img src="../images/vector-r.png" alt="Vectors can scale to any size" width="300" class="pull-right">
 
-					<h3>EPS, SVG, PDF, AI</h3>
+					<h4>EPS, SVG, PDF, AI</h4>
 					<ul class="no-clear">
 						<li>Made with math (paths, XML)</li>
 						<li>SVG created for web use, others are mainly print</li>
@@ -194,7 +194,7 @@
 				</section>
 
 				<section>
-					<h2>Vector File Types</h2>
+					<h3>Vector File Types</h3>
 
 					<table>
 						<thead>
@@ -229,7 +229,153 @@
 					</table>
 				</section>
 
+				<section data-background="http://lorempixel.com/1680/1250/abstract/7">
+					<h2>Image Resolution and Quality</h2>
+				</section>                
 
+                <section>
+                    <h3>Aspect Ratio</h3>
+                    
+                    <img src="http://placehold.it/375x300&text=5:4" height="200" title="Early LCD monitors" alt="5:4">
+                    <img src="http://placehold.it/400x300&text=4:3" height="200" title="SD TV" alt="4:3">
+                    <img src="http://placehold.it/440x300&text=3:2" height="200" title="35mm film (4x6” prints)" alt="3:2">
+                    <img src="http://placehold.it/534x300&text=16:9" height="200" title="HD Video" alt="16:9">
+                    <img src="http://placehold.it/480x300&text=16:10" height="200" title="Computer Screens" alt="16:10">
+                    <img src="http://placehold.it/300x300&text=1:1" height="200" title="Square" alt="1:1">    
+                </section>
+                
+                <section>
+                    <h3>Aspect Ratio</h3>
+                   
+                    <img src="http://lorempixel.com/375/300/cats/4" height="200" title="Early LCD monitors" alt="5:4">
+                    <img src="http://lorempixel.com/400/300/cats/4" height="200" title="SD TV" alt="4:3">
+                    <img src="http://lorempixel.com/440/300/cats/4" height="200" title="35mm film (4x6” prints)" alt="3:2">
+                    <img src="http://lorempixel.com/534/300/cats/4" height="200" title="HD Video" alt="16:9">
+                    <img src="http://lorempixel.com/480/300/cats/4" height="200" title="Computer Screens" alt="16:10">
+                    <img src="http://lorempixel.com/300/300/cats/4" height="200" title="Square" alt="1:1">
+                </section>
+
+                <section>
+                    <h3>Orientation</h3>
+                   
+                    <img src="http://placehold.it/300x200&text=Landscape" height="200" alt="Landscape is wide">
+                    <img src="http://lorempixel.com/300/200/cats/4/Landscape" height="200" alt="Landscape is wide">
+                    <br>
+                    <img src="http://placehold.it/200x300&text=Portrait" height="300" alt="Portrait is tall">
+                    <img src="http://lorempixel.com/200/300/cats/4/Portrait" height="300" alt="Portrait is tall">
+                    
+                </section>                
+                
+                <section>
+                    <h3>Web / Screen Resolution</h3>
+                    
+                    <img src="../images/ps-image-size-panel.png" height="500" alt="Screenshot of Photoshop Document Size screen, resolution higlighted">
+                </section>
+                
+                <section>
+                    <h3>Web / Screen Resolution</h3>
+                    
+                    <p>Size of Web images depends on the project, audience, and supported devices but a few rules include:</p>
+                    <ul>
+                        <li>Create the correct-sized raster images rather than scaling with CSS</li>
+                        <li>Use SVGs for logos and iconography so it can scale</li>
+                        <li>Serve different-sized backgrounds with CSS media queries</li>
+                    </ul>
+
+                </section>
+
+                <section>
+                    <h3>Print DPI</h3>
+
+                    <img src="../images/ps-document-size-panel.png" height="500" alt="Screenshot of Photoshop Document Size screen, document size highlighted">
+                </section>
+                
+                <section>
+                    <h3>Print DPI</h3>
+                    
+                    <img src="http://lorempixel.com/640/480/abstract/7/640x480" width="640" height="480" class="pull-left">  
+                    <p>Minimum print quality is 300 DPI</p>
+                    <p>This .3 MP image will print at ~2.1x1.6"—tiny!</p>
+                    <p>But it's great for Web use</p>
+                </section>
+                
+                <section data-background="http://lorempixel.com/1600/1200/abstract/7/1600x1200" background-size="1600px" background-repeat="none">
+                    <h3>Print DPI</h3>
+                                
+                    <p>You need at least 2 MP (1600x1200px) for a reasonable 4x6" photo print</p>
+                    <p>Double that for a full-page graphic</p>
+                    <p>But this size is too large for Web use (except in the case of background images)</p>
+                </section>   
+                
+                <section>
+                    <h3>Remember</h3>
+
+                    <p>DPI (or Document Size) in Photoshop has <em>no effect</em> on screen display size.</p>
+                    <p><strong>Screens are all about pixels.</strong></p>
+                </section>                
+
+ 				<section data-background="http://lorempixel.com/1680/1250/abstract/9">
+					<h2>Manipulation Basics: <br>Resizing and Cropping</h2>
+				</section>  
+                
+                <section>
+                    <h3>Manipulation Basics: <br>Resizing and Cropping</h3>
+                    <hr>
+					<h4>PHOTOSHOP DEMO</h4>
+                    <hr>
+                    
+                    <p>Many image editing programs allow you to resize and crop your photos if you don't have Photoshop.</p>
+                    
+                    <ul>
+                        <li><a href="http://apps.pixlr.com/editor/" rel="external">Pixlr Editor</a> is a free web-based editor that should look familiar to Photoshop users.</li>
+                        <li><a href="http://www.gimp.org/" rel="external">Gimp</a> is a well-known free Photoshop alternative that runs on Windows, Mac, and Linux.</li>
+                    </ul>
+				</section>
+
+                <section data-background="http://lorempixel.com/1680/1250/abstract/10">
+					<h2>Optimizing Images <br>for the Web and Print</h2>
+				</section> 
+
+                <section>
+                    <h3>Compression</h3>                    
+                    <p><strong>Lossy:</strong> affects the quality of the image. High-levels of compression can be very obvious, causing "artifacts".</p>
+                    <p>vs.</p>
+                    <p><strong>Lossless:</strong> does not affect the visual quality of the image. Works by using a variety of compression algorithms and strips unneeded metadata.</p>
+                    
+                </section>
+
+                <section>
+                    <h3>Optimizing for the Web</h3>
+                    <ol>
+                        <li>Size the image for the specific use</li>
+                        <li>Choose the right format</li>
+                        <li>Save for Web and try additional compression*</li>
+                    </ol>
+                    
+                    <p>Photoshop isn't always great at compressing (PNGs in particular). Consider services that will further compress, like <a href="http://tinypng.com/" rel="external">TinyPNG/TinyJPG</a> (lossy) or <a href="https://kraken.io/" rel="external">Kraken</a> (either).</p>
+                </section>
+
+                <section>
+                    <h3>Optimizing for Print</h3>
+                    <ol>
+                        <li>Check your aspect ratios and resolution: an 8.5x11" document won't look right on 11x17" paper.</li>
+                        <li>Check with your printer for guidelines on color profile and color mode (RGB or CMYK)</li>
+                        <li>Convert to PDF if the printer can't support AI/EPS (or their requested format)</li>
+                    </ol>
+
+                </section>                
+                
+                <section>
+                    <h3>DEMO</h3>
+                    <hr>
+					<h4>Slicing up an image<br>Save for Web and Devices in Photoshop</h4>
+                    <hr>
+                    <p>Let's look at how to chop up a design comp and save the images in the formats we need for the web.</p>
+                </section>
+                
+                <section data-background="http://lorempixel.com/1680/1250/abstract/1">
+					<h2>Questions <br>???<br> and Lab Time</h2>
+				</section> 
 			</div>
 
 		</div>
