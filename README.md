@@ -1,4 +1,4 @@
-# Images for the Web
+# Images for the Web and Print
 Presentation and supporting assets for the Vermont Works for Women Step Up to IT Image Manipulation &amp; Photoshop workshop.
 
 Below is a summary of the slides and all resource links.
@@ -36,6 +36,12 @@ We're demoing in Photoshop for the sake of the course, but many image editing pr
 [Pixlr Editor](http://apps.pixlr.com/editor/) is a free web-based editor that should look familiar to Photoshop users.
 
 [Gimp](http://www.gimp.org/) is a well-known free Photoshop alternative that runs on Windows, Mac, and Linux.
+
+[Gimpshop](http://www.gimpshop.com/) a Photoshop look-a-like port of Gimp, also free.
+
+[Affinity Photo (Beta)](https://affinity.serif.com/en-gb/photo/) a new photo editing program for OSX. Free in beta.
+
+[Pixelmator](http://www.pixelmator.com/mac/try/) one of the best rated Mac alternatives to Photoshop. Free 30-day trial, $29.99 after.
 
 Remember: keep aspect ratio and intended device in mind when resizing or cropping an image.
 
