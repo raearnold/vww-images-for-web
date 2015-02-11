@@ -37,11 +37,11 @@ We're demoing in Photoshop for the sake of the course, but many image editing pr
 
 [Gimp](http://www.gimp.org/) is a well-known free Photoshop alternative that runs on Windows, Mac, and Linux.
 
-[Gimpshop](http://www.gimpshop.com/) a Photoshop look-a-like port of Gimp, also free.
+[Gimpshop](http://www.gimpshop.com/) is a Photoshop look-a-like port of Gimp, also free.
 
-[Affinity Photo (Beta)](https://affinity.serif.com/en-gb/photo/) a new photo editing program for OSX. Free in beta.
+[Affinity Photo (Beta)](https://affinity.serif.com/en-gb/photo/) is a new photo editing program for OSX. Free in beta.
 
-[Pixelmator](http://www.pixelmator.com/mac/try/) one of the best rated Mac alternatives to Photoshop. Free 30-day trial, $29.99 after.
+[Pixelmator](http://www.pixelmator.com/mac/try/) is one of the best rated Mac alternatives to Photoshop. Free 30-day trial, $29.99 after.
 
 Remember: keep aspect ratio and intended device in mind when resizing or cropping an image.
 
