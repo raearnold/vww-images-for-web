@@ -14,6 +14,15 @@ Below is a summary of the slides and all resource links.
 	- **Math, Paths, XML**	 
 	- SVG created for web use, others are mainly print
 	- Can be scaled up without losing quality
+	
+### A Quick SVG Demo
+Because SVGs are XML documents, we can style them with CSS and interact with them via JavaScript.
+
+The presentation has a very basic demo (tested in Chrome only). For more advanced interactions, you can let a JS library do the heavy lifting—particularly for cross-browser support.
+
+[Raphaël JS](http://raphaeljs.com/) is one good JavaScript library for manipulating and transforming SVGs.
+
+Developers have created thousands of proofs of concept on [CodePen](http://codepen.io/search?q=svg&limit=all&depth=everything&show_forks=false), to see what else might be out there.
 
 ## Image Resolution and Quality
 ### Aspect Ratio and Orientation
