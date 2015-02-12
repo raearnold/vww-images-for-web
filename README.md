@@ -3,6 +3,8 @@ Presentation and supporting assets for the Vermont Works for Women Step Up to IT
 
 Below is a summary of the slides and all resource links.
 
+[View the slides](http://raearnold.github.io/vww-images-for-web/slides/) (hosted on github.io)
+
 ## Image Types
 
 - Raster Images (JPG, PNG, GIF, etc…)
